@@ -3,9 +3,9 @@
   <h1>Linux Library</h1>
   <p><strong>Every major Linux distribution. Every architecture. One place.</strong></p>
 
-  <a href="https://linux-library.github.io/">🌐 Visit the site</a> &nbsp;·&nbsp;
-  <a href="https://github.com/linux-library/linux-library.github.io/issues">🐛 Report a bug</a> &nbsp;·&nbsp;
-  <a href="https://github.com/linux-library/linux-library.github.io/issues">💡 Request a distro</a>
+  <a href="https://linux-library.github.io/">Visit the site</a> &nbsp;·&nbsp;
+  <a href="https://github.com/linux-library/linux-library.github.io/issues">Report a bug</a> &nbsp;·&nbsp;
+  <a href="https://github.com/linux-library/linux-library.github.io/issues">Request a distro</a>
 
   <br /><br />
 
@@ -18,22 +18,20 @@
 
 ## About
 
-**Linux Library** is a clean, fast, single-page website that makes finding and downloading any major Linux distribution effortless. Instead of hunting across a dozen different sites, everything is in one place — with every link pointing to an **official distribution mirror**. No files are hosted here, ever.
+**Linux Library** is a single-page website that makes finding and downloading any major Linux distribution easy. Instead of searching across a bunch of different sites, everything is in one place - with every link pointing to an **official distribution mirror**. No files are hosted here, ever.
 
-Pick a distro, choose your architecture and edition through a guided download wizard, and you're taken straight to the official ISO.
+Pick a distro, choose your architecture and edition in the designated download wizard, and you'll get the official ISO straight away in your browser.
 
 ---
 
 ## Features
 
-- **33 distributions** — from everyday desktops to security-focused and enterprise distros
-- **Guided download wizard** — step-by-step modal guides you through architecture, desktop environment, and edition
-- **Multiple architectures** — x64, ARM64, and Raspberry Pi images where available
-- **Official mirrors only** — every link goes directly to the distribution's own download servers
-- **Zero dependencies** — pure HTML, CSS, and vanilla JavaScript; no frameworks, no build step
-- **Fully responsive** — works on desktop, tablet, and mobile
-- **Accessible** — semantic HTML, ARIA labels, and keyboard navigation (Escape to close modal)
-- **SEO ready** — structured data (Schema.org), Open Graph, Twitter Card, sitemap, and canonical URLs
+- **33 distributions** - everything from everyday desktops to security-focused and enterprise distros
+- **Guided download wizard** - modal guides you through architecture, desktop environment, and edition
+- **Multiple architectures** - x64, ARM64, and Raspberry Pi images where available
+- **Official mirrors only** - every link points to the distribution's own download servers
+- **Zero dependencies** - only HTML, CSS, and vanilla JavaScript; no frameworks, no build step
+- **Responsive** - works on desktop, tablet, and mobile
 
 ---
 
@@ -104,32 +102,9 @@ linux-library.github.io/
 
 ---
 
-## Running Locally
-
-No build tools required. Just open the project in your browser:
-
-```bash
-git clone https://github.com/linux-library/linux-library.github.io.git
-cd linux-library.github.io
-```
-
-Then open `index.html` directly, or use a simple local server to avoid any path issues:
-
-```bash
-# Python
-python3 -m http.server 8080
-
-# Node.js (npx)
-npx serve .
-```
-
-Then visit `http://localhost:8080`.
-
----
-
 ## Contributing
 
-Contributions are welcome! Here's how you can help:
+I really appreciate contributors. Here's how you can help:
 
 ### Adding or updating a distribution
 
@@ -160,17 +135,17 @@ The download wizard automatically detects which keys are present and builds the 
 
 ### Adding an icon
 
-Place a square PNG (ideally 128×128 or larger) in the `/icons/` directory, named in lowercase with no spaces (e.g. `exampleos.png`), and reference it in the `img` field of the distro entry.
+Place a square PNG (preferably 512×512 or larger) in the `/icons/` directory, named in lowercase with no spaces (e.g. `exampleos.png`), and reference it in the `img` field of the distro entry.
 
-### Reporting outdated links
+### Updating outdated links
 
-If a download URL has changed or a new version has been released, please [open an issue](https://github.com/linux-library/linux-library.github.io/issues) or submit a pull request updating the relevant URL in `script.js`.
+If a download URL has changed or a new version has been released, just [open an issue](https://github.com/linux-library/linux-library.github.io/issues) or submit a pull request updating the URL in `script.js`.
 
 ---
 
 ## Deployment
 
-The site is deployed automatically via **GitHub Pages** from the `main` branch. No CI configuration is required — simply push to `main` and GitHub Pages will serve the updated site within a minute or two.
+The site is deployed automatically via **GitHub Pages** from the `main` branch. No CI configuration is required - simply push to `main` and GitHub Pages will serve the updated site in a matter of minutes.
 
 ---
 
