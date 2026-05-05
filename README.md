@@ -86,10 +86,12 @@ Pick a distro, choose your architecture and edition through a guided download wi
 
 ```
 linux-library.github.io/
+├── icons/              # Distribution logo PNGs
+├── LICENSE             # MIT License
+├── README.md           # README file
 ├── index.html          # Main page and all markup
 ├── style.css           # All styles (custom properties, grid, modal, animations)
 ├── script.js           # Distro data + download wizard logic
-├── icons/              # Distribution logo PNGs
 ├── icon.png            # Site icon (OG image)
 ├── favicon.ico
 ├── favicon-16x16.png
