@@ -286,6 +286,9 @@ body {
 .distro-card:nth-child(28) { animation-delay: 1.12s; }
 .distro-card:nth-child(29) { animation-delay: 1.16s; }
 .distro-card:nth-child(30) { animation-delay: 1.20s; }
+.distro-card:nth-child(31) { animation-delay: 1.24s; }
+.distro-card:nth-child(32) { animation-delay: 1.28s; }
+.distro-card:nth-child(33) { animation-delay: 1.32s; }
 
 .card-img-wrap {
   width: 80px;
@@ -658,7 +661,54 @@ body {
   background: var(--accent-3);
 }
 
-/* Download ready state */
+/* final download page */
+.final-download-area {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.checksums-section {
+  margin-bottom: 4px;
+}
+
+.checksums-heading {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent-1);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.checksums-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.btn-checksum {
+  font-size: 0.8rem;
+  padding: 8px 14px;
+  border-radius: 10px;
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.btn-checksum:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(168,100,255,0.4);
+  color: #d4b8ff;
+}
+
+.checksums-empty {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Download ready state (removed, replaced by final page) */
 .download-ready {
   text-align: center;
   padding: 8px 0 4px;
