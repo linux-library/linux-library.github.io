@@ -5,7 +5,7 @@ const DISTROS = [
   {
     name: 'Ubuntu',
     website: 'https://ubuntu.com/',
-    img:  '/icons/ubuntu.png',
+    img:  '/icons/ubuntu.webp',
     about: 'Ubuntu is one of the most widely used Linux distributions, developed by Canonical and built on Debian. It offers a polished GNOME desktop, excellent hardware compatibility, and predictable Long-Term Support releases with five years of updates. With massive community support and a huge software ecosystem, it’s a reliable choice for beginners, developers, and servers alike.',
     links: [
       { url: 'https://releases.ubuntu.com/resolute/ubuntu-26.04-desktop-amd64.iso',                                               architecture: 'x64 (recommended)', type: 'Desktop' },
@@ -19,7 +19,7 @@ const DISTROS = [
   {
     name: 'Linux Mint',
     website: 'https://www.linuxmint.com/',
-    img:  '/icons/linuxmint.png',
+    img:  '/icons/linuxmint.webp',
     about: 'Linux Mint is a community-driven distribution based on Ubuntu, best known for its Cinnamon desktop and smooth out-of-the-box experience. It focuses on stability, ease of use, and a familiar layout that feels comfortable for users coming from Windows. With multimedia support included and a conservative update approach, it’s one of the easiest ways to get started with Linux.',
     links: [
       { url: 'https://pub.linuxmint.io/stable/22.3/linuxmint-22.3-cinnamon-64bit.iso', architecture: 'x64', desktop: 'Cinnamon (recommended)' },
@@ -30,7 +30,7 @@ const DISTROS = [
   {
     name: 'Debian',
     website: 'https://www.debian.org/',
-    img:  '/icons/debian.png',
+    img:  '/icons/debian.webp',
     about: 'Debian is one of the oldest and most influential Linux distributions, forming the base for countless others. It prioritises stability, reliability, and free software principles, with a massive repository of packages available. While not always the most cutting-edge, it’s a rock-solid choice for servers and users who value consistency over novelty.',
     links: [
       { url: 'https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.4.0-amd64-gnome.iso',    architecture: 'x64 (recommended)', desktop: 'GNOME (recommended)' },
@@ -48,7 +48,7 @@ const DISTROS = [
   {
     name: 'Fedora',
     website: 'https://fedoraproject.org/',
-    img:  '/icons/fedora.png',
+    img:  '/icons/fedora.webp',
     about: 'Fedora is a modern, forward-thinking distribution sponsored by Red Hat and focused on innovation. It frequently introduces the latest technologies first, including new kernels, desktop features, and development tools. Despite being cutting-edge, it remains stable enough for daily use and is especially popular among developers and enthusiasts.',
     links: [
       { url: 'https://download.fedoraproject.org/pub/fedora/linux/releases/44/Workstation/x86_64/iso/Fedora-Workstation-Live-44-1.7.x86_64.iso',         architecture: 'x64 (recommended)', desktop: 'GNOME (recommended)' },
@@ -62,7 +62,7 @@ const DISTROS = [
   {
     name: 'Pop!_OS',
     website: 'https://system76.com/pop/',
-    img:  '/icons/popos.png',
+    img:  '/icons/popos.webp',
     about: 'Pop!_OS is developed by System76 and designed with productivity in mind, especially for developers and creators. It features a refined desktop experience with built-in tiling window management and excellent GPU support. With a clean interface and thoughtful defaults, it’s ideal for users who want efficiency without spending hours tweaking.',
     links: [
       { url: 'https://iso.pop-os.org/24.04/amd64/generic/24/pop-os_24.04_amd64_generic_24.iso', architecture: 'x64 (recommended)' },
@@ -72,7 +72,7 @@ const DISTROS = [
   {
     name: 'Manjaro',
     website: 'https://manjaro.org/',
-    img:  '/icons/manjaro.png',
+    img:  '/icons/manjaro.webp',
     about: 'Manjaro is a user-friendly distribution based on Arch Linux, designed to make Arch more accessible. It offers a rolling-release model with curated updates, preconfigured desktops, and excellent hardware detection. Combined with access to the AUR, it provides a powerful yet approachable system for users who want newer software without the full Arch setup headache.',
     links: [
       { url: 'https://download.manjaro.org/kde/26.0.4/manjaro-kde-26.0.4-260327-linux618.iso',                              architecture: 'x64 (recommended)', desktop: 'KDE Plasma (recommended)' },
@@ -86,7 +86,7 @@ const DISTROS = [
   {
     name: 'Zorin OS',
     website: 'https://zorin.com/os/',
-    img:  '/icons/zorinos.png',
+    img:  '/icons/zorinos.webp',
     about: 'Zorin OS is designed to make the transition from Windows or macOS to Linux as smooth as possible. Its interface can mimic familiar layouts, and it includes tools to run Windows applications with minimal hassle. With a strong focus on simplicity and design, it’s one of the most beginner-friendly distributions available.',
     links: [
       { url: 'https://mirrors.edge.kernel.org/zorinos-isos/18/Zorin-OS-18.1-Core-64-bit.iso',      architecture: 'x64', type: 'Core (recommended)' },
@@ -97,7 +97,7 @@ const DISTROS = [
   {
     name: 'Arch Linux',
     website: 'https://archlinux.org/',
-    img:  '/icons/archlinux.png',
+    img:  '/icons/archlinux.webp',
     about: 'Arch Linux is a minimalist, rolling-release distribution built around simplicity and user control. It provides a barebones base system that users build up manually, allowing complete customisation. Known for its documentation and the AUR, it’s best suited for experienced users who want full control over their system.',
     links: [
       { url: 'https://geo.mirror.pkgbuild.com/iso/latest/archlinux-x86_64.iso', architecture: 'x64' },
@@ -106,7 +106,7 @@ const DISTROS = [
   {
     name: 'Raspberry Pi OS',
     website: 'https://www.raspberrypi.com/software/operating-systems/',
-    img:  '/icons/raspbian.png',
+    img:  '/icons/raspbian.webp',
     about: 'Raspberry Pi OS is the official operating system for Raspberry Pi devices, based on Debian and optimised for ARM hardware. It includes a lightweight desktop and a wide range of educational and development tools, especially for Python and GPIO. It’s the go-to choice for hobbyists, students, and anyone working with Raspberry Pi projects.',
     links: [
       { url: 'https://downloads.raspberrypi.com/raspios_arm64/images/raspios_arm64-2026-04-21/2026-04-21-raspios-trixie-arm64.img.xz',                architecture: 'Raspberry Pi 64-bit (recommended)', type: 'Standard (recommended)' },
@@ -120,7 +120,7 @@ const DISTROS = [
   {
     name: 'Kubuntu',
     website: 'https://kubuntu.org/',
-    img:  '/icons/kubuntu.png',
+    img:  '/icons/kubuntu.webp',
     about: 'Kubuntu is an official Ubuntu flavour featuring the KDE Plasma desktop, offering a highly customisable and feature-rich experience. It combines Ubuntu’s stability and software ecosystem with Plasma’s modern interface and flexibility. Ideal for users who want a polished system that they can tweak to their heart’s content without building everything from scratch.',
     links: [
       { url: 'https://cdimages.ubuntu.com/kubuntu/releases/resolute/release/kubuntu-26.04-desktop-amd64.iso', architecture: 'x64' },
@@ -129,7 +129,7 @@ const DISTROS = [
   {
     name: 'Xubuntu',
     website: 'https://xubuntu.org/',
-    img:  '/icons/xubuntu.png',
+    img:  '/icons/xubuntu.webp',
     about: 'Xubuntu is a lightweight Ubuntu flavour that uses the Xfce desktop, focusing on speed, simplicity, and efficiency. It provides a clean and traditional interface while keeping resource usage low, making it suitable for older hardware or users who prefer a minimal setup. Despite its lightweight nature, it still benefits from Ubuntu’s extensive repositories and support.',
     links: [
       { url: 'https://cdimages.ubuntu.com/xubuntu/releases/resolute/release/xubuntu-26.04-desktop-amd64.iso', architecture: 'x64' },
@@ -138,7 +138,7 @@ const DISTROS = [
   {
     name: 'Lubuntu',
     website: 'https://lubuntu.me/',
-    img:  '/icons/lubuntu.png',
+    img:  '/icons/lubuntu.webp',
     about: 'Lubuntu is a fast and lightweight Ubuntu flavour built around the LXQt desktop environment. Designed for low-resource systems, it delivers a simple, responsive experience without unnecessary extras. It’s a great choice for older machines or users who want a minimal, no-frills desktop that still retains access to Ubuntu’s ecosystem.',
     links: [
       { url: 'https://cdimages.ubuntu.com/lubuntu/releases/resolute/release/lubuntu-26.04-desktop-amd64.iso', architecture: 'x64' },
@@ -147,7 +147,7 @@ const DISTROS = [
   {
     name: 'EndeavourOS',
     website: 'https://endeavouros.com/',
-    img:  '/icons/endeavouros.png',
+    img:  '/icons/endeavouros.webp',
     about: 'EndeavourOS is a lightweight Arch-based distribution that aims to provide a near-vanilla Arch experience with an easier installation process. It features a simple installer, minimal preconfiguration, and a strong community focus. Ideal for users who want to move to Arch without dealing with the full manual install.',
     links: [
       { url: 'https://ftp.belnet.be/mirror/endeavouros/iso/EndeavourOS_Titan-Neo-2026.04.27.iso',         architecture: 'x64 (recommended)', mirror: 'Belgium - Belnet' },
@@ -184,7 +184,7 @@ const DISTROS = [
   {
     name: 'Garuda Linux',
     website: 'https://garudalinux.org/',
-    img:  '/icons/garudalinux.png',
+    img:  '/icons/garudalinux.webp',
     about: 'Garuda Linux is a flashy, performance-focused Arch-based distribution with a strong emphasis on gaming and desktop experience. It includes features like Btrfs snapshots, performance tweaks, and heavily customised KDE layouts. It’s aimed at users who want a powerful system that looks impressive straight out of the box.',
     links: [
       { url: 'https://iso.builds.garudalinux.org/iso/latest/garuda/mokka/latest.iso',             architecture: 'x64', desktop: 'Mokka (recommended)' },
@@ -202,7 +202,7 @@ const DISTROS = [
   {
     name: 'elementary OS',
     website: 'https://elementary.io/',
-    img:  '/icons/elementaryos.png',
+    img:  '/icons/elementaryos.webp',
     about: 'elementary OS is a design-focused distribution based on Ubuntu, featuring the custom Pantheon desktop. It emphasises simplicity, consistency, and a clean user experience inspired by macOS. With curated apps and a strong design philosophy, it’s ideal for users who care about aesthetics as much as functionality.',
     links: [
       { url: 'https://ams3.dl.elementary.io/download/MTc3NzkyNTc2Mw==/elementaryos-8.1-stable-amd64.20260219.iso', architecture: 'x64 (recommended)' },
@@ -212,7 +212,7 @@ const DISTROS = [
   {
     name: 'KDE neon',
     website: 'https://neon.kde.org/',
-    img:  '/icons/kdeneon.png',
+    img:  '/icons/kdeneon.webp',
     about: 'KDE neon is an Ubuntu-based distribution that showcases the latest KDE Plasma desktop and applications. It combines a stable base system with cutting-edge KDE software, updated continuously. It’s perfect for users who want the newest KDE features without switching to a full rolling-release distro.',
     links: [
       { url: 'https://files.kde.org/neon/images/user/20260430-1324/neon-user-20260430-1324.iso',                    architecture: 'x64', type: 'User Edition (recommended)' },
@@ -224,7 +224,7 @@ const DISTROS = [
   {
     name: 'MX Linux',
     website: 'https://mxlinux.org/',
-    img:  '/icons/mxlinux.png',
+    img:  '/icons/mxlinux.webp',
     about: 'MX Linux is a Debian-based distribution focused on stability, efficiency, and simplicity. It uses lightweight desktops like Xfce and includes a range of useful system tools for configuration and maintenance. It’s especially popular on older hardware and with users who want a dependable, no-nonsense system.',
     links: [
       { url: 'https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-25.1_Xfce_x64.iso/download',        architecture: 'x64 (recommended)', desktop: 'Xfce', type: 'Standard (recommended)' },
@@ -237,7 +237,7 @@ const DISTROS = [
   {
     name: 'openSUSE',
     website: 'https://www.opensuse.org/',
-    img:  '/icons/opensuse.png',
+    img:  '/icons/opensuse.webp',
     about: 'openSUSE offers both a stable release (Leap) and a rolling release (Tumbleweed), catering to different types of users. It’s known for its powerful YaST configuration tool and robust system management features. With strong ties to SUSE enterprise systems, it’s a reliable choice for both desktops and servers.',
     links: [
       { url: 'https://download.opensuse.org/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso',       architecture: 'x64 (recommended)', type: 'Leap (recommended)' },
@@ -249,7 +249,7 @@ const DISTROS = [
   {
     name: 'deepin',
     website: 'https://www.deepin.org/',
-    img:  '/icons/deepin.png',
+    img:  '/icons/deepin.webp',
     about: 'deepin is a distribution focused heavily on design and user experience, featuring its own custom desktop environment. It offers a sleek interface, smooth animations, and a suite of built-in applications. While visually impressive, it’s best suited for users who prioritise aesthetics and ease of use.',
     links: [
       { url: 'https://cdimage.deepin.com/releases/25.1.0/amd64/deepin-desktop-community-25.1.0-amd64.iso', architecture: 'x64 (recommended)' },
@@ -259,7 +259,7 @@ const DISTROS = [
   {
     name: 'Red Hat Enterprise Linux',
     website: 'https://redhat.com/rhel/',
-    img:  '/icons/redhat.png',
+    img:  '/icons/redhat.webp',
     about: 'Red Hat Enterprise Linux (RHEL) is a commercial, enterprise-grade distribution used in business and production environments worldwide. It offers long-term support, extensive certifications, and professional backing. While paid for organisations, it’s available free for individual developers through Red Hat’s programme.',
     links: [
       { url: 'https://developers.redhat.com/content-gateway/file/rhel/Red_Hat_Enterprise_Linux_10.1/rhel-10.1-x86_64-dvd.iso',  architecture: 'x64' },
@@ -269,7 +269,7 @@ const DISTROS = [
   {
     name: 'Rocky Linux',
     website: 'https://rockylinux.org/',
-    img:  '/icons/rockylinux.png',
+    img:  '/icons/rockylinux.webp',
     about: 'Rocky Linux is a community-driven, enterprise-ready distribution designed as a replacement for CentOS. It is fully compatible with RHEL and provides long-term stability without licensing costs. It’s widely used by organisations needing a reliable and free enterprise Linux platform.',
     links: [
       { url: 'https://download.rockylinux.org/pub/rocky/10/isos/x86_64/Rocky-10-latest-x86_64-dvd.iso',                    architecture: 'x64 (recommended)' },
@@ -280,7 +280,7 @@ const DISTROS = [
   {
     name: 'AlmaLinux',
     website: 'https://almalinux.org/',
-    img:  '/icons/almalinux.png',
+    img:  '/icons/almalinux.webp',
     about: 'AlmaLinux is another RHEL-compatible distribution maintained by the AlmaLinux OS Foundation. It focuses on stability, transparency, and long-term support for production environments. It serves as a dependable alternative for users migrating away from CentOS.',
     links: [
       { url: 'https://repo.almalinux.org/almalinux/10/isos/x86_64/AlmaLinux-10-latest-x86_64-dvd.iso',                    architecture: 'x64 (recommended)' },
@@ -291,7 +291,7 @@ const DISTROS = [
   {
     name: 'Oracle Linux',
     website: 'https://www.oracle.com/linux/',
-    img:  '/icons/oraclelinux.png',
+    img:  '/icons/oraclelinux.webp',
     about: 'Oracle Linux is a RHEL-compatible distribution maintained by Oracle, offering enterprise features and support options. It includes its own kernel enhancements and is commonly used in Oracle-based environments. Despite the name, it’s freely available and suitable for general enterprise use.',
     links: [
       { url: 'https://yum.oracle.com/ISOS/OracleLinux/OL10/u1/x86_64/OracleLinux-R10-U1-x86_64-dvd.iso',   architecture: 'x64 (recommended)' },
@@ -301,7 +301,7 @@ const DISTROS = [
   {
     name: 'CentOS Stream',
     website: 'https://www.centos.org/',
-    img:  '/icons/centos.png',
+    img:  '/icons/centos.webp',
     about: 'CentOS Stream is a rolling distribution that sits just ahead of RHEL in the development pipeline. It provides a preview of upcoming enterprise features and acts as a collaboration point between Red Hat and the community. It’s best suited for developers and those who want insight into future RHEL changes.',
     links: [
       { url: 'https://centos-stream.mirrorservice.org/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-dvd1.iso',   architecture: 'x64 (recommended)' },
@@ -311,7 +311,7 @@ const DISTROS = [
   {
     name: 'Kali Linux',
     website: 'https://www.kali.org/',
-    img:  '/icons/kalilinux.png',
+    img:  '/icons/kalilinux.webp',
     about: 'Kali Linux is a specialised distribution for penetration testing and cybersecurity work. It comes preloaded with a large collection of security tools for network analysis, exploitation, and forensics. It’s not meant for everyday use unless your idea of fun is breaking into your own Wi-Fi.',
     links: [
       { url: 'https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-installer-amd64.iso',               architecture: 'x64 (recommended)' },
@@ -322,7 +322,7 @@ const DISTROS = [
   {
     name: 'Parrot OS',
     website: 'https://www.parrotsec.org/',
-    img:  '/icons/parrotos.png',
+    img:  '/icons/parrotos.webp',
     about: 'Parrot OS is a security-focused distribution similar to Kali, but with a broader focus on privacy and general usability. It includes tools for penetration testing, development, and secure communication. It’s a bit more flexible for daily use while still catering to security professionals.',
     links: [
       { url: 'https://deb.parrot.sh/parrot/iso/7.1/Parrot-security-7.1_amd64.iso',  architecture: 'x64',          type: 'Security Edition (recommended)' },
@@ -336,7 +336,7 @@ const DISTROS = [
   {
     name: 'NixOS',
     website: 'https://nixos.org/',
-    img:  '/icons/nixos.png',
+    img:  '/icons/nixos.webp',
     about: 'NixOS is a unique distribution that uses a declarative configuration model powered by the Nix package manager. Entire systems are defined through configuration files, allowing reproducibility and easy rollbacks. It’s powerful but has a steep learning curve, so don’t expect it to hold your hand.',
     links: [
       { url: 'https://channels.nixos.org/nixos-25.11/latest-nixos-graphical-x86_64-linux.iso',  architecture: 'x64 (recommended)', type: 'Graphical (recommended)' },
@@ -348,7 +348,7 @@ const DISTROS = [
   {
     name: 'Tails',
     website: 'https://tails.net/',
-    img:  '/icons/tails.png',
+    img:  '/icons/tails.webp',
     about: 'Tails is a privacy-focused, live operating system designed to leave no trace on the host machine. It routes all internet traffic through Tor and includes tools for encryption and anonymity. Ideal for sensitive work, journalism, or anyone who doesn’t want to be tracked.',
     links: [
       { url: 'https://download.tails.net/tails/stable/tails-amd64-7.7.2/tails-amd64-7.7.2.iso', architecture: 'x64' },
@@ -357,7 +357,7 @@ const DISTROS = [
   {
     name: 'Qubes OS',
     website: 'https://www.qubes-os.org/',
-    img:  '/icons/qubesos.png',
+    img:  '/icons/qubesos.webp',
     about: 'Qubes OS is a security-first system that isolates applications into separate virtual machines. This compartmentalisation limits the impact of potential compromises and keeps different tasks separated. It’s extremely secure, but also resource-heavy and not exactly beginner-friendly.',
     links: [
       { url: 'https://download.tails.net/tails/stable/tails-amd64-7.7.2/tails-amd64-7.7.2.iso', architecture: 'x64' },
@@ -366,7 +366,7 @@ const DISTROS = [
   {
     name: 'Alpine Linux',
     website: 'https://www.alpinelinux.org/',
-    img:  '/icons/alpinelinux.png',
+    img:  '/icons/alpinelinux.webp',
     about: 'Alpine Linux is an ultra-lightweight distribution built with security and minimalism in mind. It uses musl libc and BusyBox, resulting in a tiny footprint and fast performance. It’s widely used in containers and embedded systems where efficiency matters.',
     links: [
       { url: 'https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/x86_64/alpine-standard-3.23.4-x86_64.iso',      architecture: 'x64 (recommended)' },
@@ -377,7 +377,7 @@ const DISTROS = [
   {
     name: 'Void Linux',
     website: 'https://voidlinux.org/',
-    img:  '/icons/voidlinux.png',
+    img:  '/icons/voidlinux.webp',
     about: 'Void Linux is an independent rolling-release distribution that focuses on simplicity and performance. It uses its own package manager and the runit init system instead of systemd. It’s a great choice for users who want something lightweight and a bit different from the mainstream.',
     links: [
       { url: 'https://repo-default.voidlinux.org/live/current/void-live-x86_64-20250202-xfce.iso',  architecture: 'x64 (recommended)', type: 'xfce (recommended)' },
@@ -390,7 +390,7 @@ const DISTROS = [
   {
     name: 'Gentoo',
     website: 'https://www.gentoo.org/',
-    img:  '/icons/gentoo.png',
+    img:  '/icons/gentoo.webp',
     about: 'Gentoo is a source-based distribution that allows users to compile software tailored to their hardware. It offers extreme customisation and optimisation, but requires time and patience to set up. Perfect if you enjoy tweaking everything — or if you just enjoy suffering slightly.',
     links: [
       { url: 'https://distfiles.gentoo.org/releases/amd64/autobuilds/current-livegui-amd64/livegui-amd64-20260426T153103Z.iso',                 architecture: 'x64 (recommended)', desktop: 'KDE Plasma (recommended)' },
@@ -401,7 +401,7 @@ const DISTROS = [
   {
     name: 'CachyOS',
     website: 'https://cachyos.org/',
-    img:  '/icons/cachyos.png',
+    img:  '/icons/cachyos.webp',
     about: 'CachyOS is an Arch-based distribution focused heavily on performance and optimisation. It features custom kernels, tuned packages, and enhancements aimed at gamers and power users. If you like squeezing every last drop of performance out of your system, this one’s for you.',
     links: [
       { url: 'https://cdn77.cachyos.org/ISO/desktop/260426/cachyos-desktop-linux-260426.iso', architecture: 'x64' },
