@@ -84,20 +84,22 @@ Pick a distro, choose your architecture and edition in the designated download w
 
 ```
 linux-library.github.io/
-├── icons/              # Distribution logo PNGs
-├── LICENSE             # MIT license
-├── README.md           # README
-├── index.html          # Main page and all markup
-├── style.css           # All styles (custom properties, grid, modal, animations)
-├── script.js           # Distro data + download wizard logic
-├── icon.png            # Site icon (OG image)
-├── favicon.ico
+├── icons/                     # Distribution logo PNGs
+├── LICENSE                    # MIT license
+├── README.md                  # README
+├── android-chrome-192x192.png
+├── android-chrome-512x512.png
+├── apple-touch-icon.png
 ├── favicon-16x16.png
 ├── favicon-32x32.png
-├── apple-touch-icon.png
-├── site.webmanifest    # PWA manifest
+├── favicon.ico
+├── icon.png                   # Site icon (OG image)
+├── index.html                 # Main page and all markup
+├── robots.txt
+├── script.js                  # Distro data + download wizard logic
+├── site.webmanifest           # PWA manifest
 ├── sitemap.xml
-└── robots.txt
+└── style.css                  # Styles (custom properties, grid, modal, animations)
 ```
 
 ---
@@ -145,7 +147,7 @@ If a download URL has changed or a new version has been released, just [open an 
 
 ## Deployment
 
-The site is deployed automatically via **GitHub Pages** from the `main` branch. No CI configuration is required - simply push to `main` and GitHub Pages will serve the updated site in a matter of minutes.
+The site is deployed automatically via **GitHub Pages** from the `main` branch. No CI configuration is needed - just push to `main` and GitHub Pages will serve the updated site in a matter of minutes.
 
 ---
 
